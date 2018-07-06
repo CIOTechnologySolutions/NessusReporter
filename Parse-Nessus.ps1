@@ -362,7 +362,7 @@ function Format-DashboardHtmlReport($allhosts, $reportsbyhostfolder)
 	
 	$html = "<table id=""tabips"">"
 	$i = 0
-	$rowmax = 6
+	$rowmax = 5
 	foreach ($c in $crits) 
 	{
 		if ($c.IPAddress -ne $null)
@@ -907,7 +907,7 @@ function Create-CISDashboard($allhostinfo, $hostreportlisthtml, $foldername, $co
 
 	$html = "<table id=""tabips"">"
 	$i = 0
-	$rowmax = 6
+	$rowmax = 5
 
 	foreach ($hostinfo in $allhostinfo) 
 	{
